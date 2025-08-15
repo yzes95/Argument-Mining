@@ -1,0 +1,31 @@
+# This file lists all the Python libraries needed for the argument mining project.
+# To install all of them at once, run the following command in your terminal:
+# pip install -r requirements.txt
+
+# For data manipulation and creating DataFrames
+pandas
+
+# For NLP tasks like sentence segmentation and other text processing
+spacy
+nltk
+
+# For the classic machine learning model (SVM)
+scikit-learn
+
+# For using state-of-the-art models like BERT and RoBERTa
+transformers
+
+# The deep learning backend required by the 'transformers' library.
+# PyTorch is a common choice.
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# For creating a web API to serve the model later
+fastapi
+# The server needed to run FastAPI
+uvicorn[standard]
+
+#xaif for formating my output to be in xaif
+xaif==0.3.6
+
+#for roberta dataset analysis
+datasets

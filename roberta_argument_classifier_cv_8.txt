@@ -1,0 +1,28 @@
+For AAEC TEST DATA:
+--- Loading model and tokenizer from roberta_argument_classifier_combined_cv_8 ---
+Model and tokenizer loaded successfully.
+--- Loading test data from testing_10_percent_processed_corpus_part_1.csv ---
+--- Final Evaluation on the Unseen Validation Set ---
+                   precision    recall  f1-score   support
+
+Non-Argumentative       0.99      1.00      1.00       199
+    Argumentative       1.00      1.00      1.00       631
+
+         accuracy                           1.00       830
+        macro avg       1.00      1.00      1.00       830
+     weighted avg       1.00      1.00      1.00       830
+
+
+For UKP TEST DATA:
+--- Loading model and tokenizer from roberta_argument_classifier_combined_cv_8 ---
+Model and tokenizer loaded successfully.
+--- Loading test data from ukp_testing_processed_corpus.csv ---
+--- Final Evaluation on the Unseen Validation Set ---
+                   precision    recall  f1-score   support
+
+Non-Argumentative       0.68      0.93      0.79      1861
+    Argumentative       0.84      0.45      0.58      1452
+
+         accuracy                           0.72      3313
+        macro avg       0.76      0.69      0.69      3313
+     weighted avg       0.75      0.72      0.70      3313
